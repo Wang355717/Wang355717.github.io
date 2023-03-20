@@ -5,6 +5,9 @@
   #page-header {
     background: transparent !important;
   }
+#footer {
+    background: transparent;
+  }
   
   /* 白天模式遮罩透明 */
   #footer::before {
