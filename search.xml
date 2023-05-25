@@ -94,6 +94,17 @@
     
     
     <entry>
+      <title>照片集</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -121,17 +132,6 @@
       <url>/css/footer.css</url>
       
         <content type="html"><![CDATA[#footer-icon {    border-radius: 12px 12px 0 0;    display: flex;    justify-content: center;    flex-wrap: wrap;    padding-bottom: 1rem;    align-items: center;    margin: auto;    max-width: 1200px;    width: 97%;}#footer-avatar {    border-radius: 50%;    width: 60px;    height: 60px;    margin: 0 1rem;    cursor: pointer;    transition: all .25s;}.avatar-link {    height: 40px;    width: 40px;    display: flex;    align-items: center;    justify-content: center;    margin: 1rem;    background-color: #363636e2;    border-radius: 3rem;}#footer-avatar-left, #footer-avatar-right {    display: flex;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>照片集</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -182,22 +182,22 @@
     
     
     <entry>
-      <title>音乐馆</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '跑到哪里去了？主人';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '跑到哪里去了？主人';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
